@@ -1,2 +1,2 @@
 # mymp3
-Meu projeto de repositório online de musicas 
+Meu repositório online de musicas com sistema de playlists em PHP
