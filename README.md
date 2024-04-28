@@ -1,3 +1,28 @@
 # Mymp3
-Meu repositório online de musicas com sistema de playlists em PHP
+Meu repositório online de musicas com sistema de playlists/pastas em PHP<br>
+<a href="https://mymp3repositorio.000webhostapp.com/">Link do projeto!</a>
 <img src='fotodoprojeto.png'>
+
+<center><h1>❗❗❗Ao baixar exclua os aruivos <a href="https://github.com/andradedevweb/mymp3/blob/main/app/models/playlists_uploads/hardcore/deleteisso.txt">deleisso.txt</a> dentro dos diretorios vazios na pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models/playlists_uploads">playlists_uploads</a> ❗❗❗</h1></center>
+
+## 💻 Explicando o código
+
+Basicamente a "magica" da aplicação gira entorno de uma função para escanear diretorios e exibir os arquivos contidos nos mesmos em paginas PHP, uma função que efetua upload de arquivos mp3 para dentro de um diretório (que posteriormente serão escaneados pela primeira função e exibidos em uma pagina PHP) e por fim uma função que ira criar um novo diretório (playlist) e uma pagina para exibir os aquivos e realizar uploads dos mesmos, com essas três funções nós temos uma aplicação dinamica que realiza upload de arquivos mp3, armazena, exibe os mesmos para o usuario e ainda os organiza em pastas.
+
+## 📂 Explicando a estrutura
+
+O sistema usa o padrão MVC orientado a objetos, caso não tenha familharidade com o padrão MVC você pode o entender como tendo 3 pastas principais responsaveis pelo projeto, a pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models">models</a> é geralmente responsavel por armazenar os arquivos reponsaveis pela conexão dom a database, neste projeto a pasta models é responsavel por armazenar os arquivos de upados e a pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/views">views</a> é responsavel por armazenar os arquivos que serão exibidos para o usuario.
+
+## 📋 Pré-requisitos
+
+Se não puder acessar o <a href="https://mymp3repositorio.000webhostapp.com/">link do projeto</a> recomendo fortemente que baixe o <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a>  e insara os arquivos do projeto na pasta htdocs, ou baixe um servidor local com PHP 5 ou superior e execute, você podera acessar o projeto em <a href="http://localhost/">localhost</a> no seu computador.
+
+## ⚙️ Executando os testes
+
+Você pode ir na pagina de playlists e testar o sistema de criação de playlists/pastas, inserir musicas nas playlists/banco de musicas ou simplesmente ouvir as as musicas já incluidas no sistema.
+
+## 🛠️ Construído com
+
+* [PHP](https://www.php.net/) - Linguagem usada
+* [Xampp](https://www.apachefriends.org/pt_br/index.html) - Servidor local usada para teste
+* [VsCode](https://code.visualstudio.com/) - Editor de código usado
