@@ -1,9 +1,9 @@
 # Mymp3
 Meu repositório online de musicas com sistema de playlists/pastas em PHP<br>
-<a href="https://mymp3repositorio.000webhostapp.com/">Link do projeto!</a>
+<a href="https://mymp3repositorio.000webhostapp.com/" targe="_blank">Link do projeto!</a>
 <img src='fotodoprojeto.png'>
 
-<center><h1>❗❗❗Ao baixar exclua os aruivos <a href="https://github.com/andradedevweb/mymp3/blob/main/app/models/playlists_uploads/hardcore/deleteisso.txt">deleisso.txt</a> dentro dos diretorios vazios na pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models/playlists_uploads">playlists_uploads</a> ❗❗❗</h1></center>
+<center><h1>❗❗❗Ao baixar exclua os aruivos <a href="https://github.com/andradedevweb/mymp3/blob/main/app/models/playlists_uploads/hardcore/deleteisso.txt" targe="_blank">deleisso.txt</a> dentro dos diretorios vazios na pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models/playlists_uploads" targe="_blank">playlists_uploads</a> ❗❗❗</h1></center>
 
 ## 💻 Explicando o código
 
@@ -11,11 +11,11 @@ Basicamente a "magica" da aplicação gira entorno de uma função para escanear
 
 ## 📂 Explicando a estrutura
 
-O sistema usa o padrão MVC orientado a objetos, caso não tenha familharidade com o padrão MVC você pode o entender como tendo 3 pastas principais responsaveis pelo projeto, a pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models">models</a> é geralmente responsavel por armazenar os arquivos reponsaveis pela conexão dom a database, neste projeto a pasta models é responsavel por armazenar os arquivos de upados e a pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/views">views</a> é responsavel por armazenar os arquivos que serão exibidos para o usuario.
+O sistema usa o padrão MVC orientado a objetos, caso não tenha familharidade com o padrão MVC você pode o entender como tendo 3 pastas principais responsaveis pelo projeto, a pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models" targe="_blank">models</a> é geralmente responsavel por armazenar os arquivos reponsaveis pela conexão dom a database, neste projeto a pasta models é responsavel por armazenar os arquivos de upados e a pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/views" targe="_blank">views</a> é responsavel por armazenar os arquivos que serão exibidos para o usuario.
 
 ## 📋 Pré-requisitos
 
-Se não puder acessar o <a href="https://mymp3repositorio.000webhostapp.com/">link do projeto</a> recomendo fortemente que baixe o <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a>  e insara os arquivos do projeto na pasta htdocs, ou baixe um servidor local com PHP 5 ou superior e execute, você podera acessar o projeto em <a href="http://localhost/">localhost</a> no seu computador.
+Se não puder acessar o <a href="https://mymp3repositorio.000webhostapp.com/" targe="_blank">link do projeto</a> recomendo fortemente que baixe o <a href="https://www.apachefriends.org/pt_br/index.html" targe="_blank">Xampp</a>  e insara os arquivos do projeto na pasta htdocs, ou baixe um servidor local com PHP 5 ou superior e execute, você podera acessar o projeto em <a href="http://localhost/" targe="_blank">localhost</a> no seu computador.
 
 ## ⚙️ Executando os testes
 
