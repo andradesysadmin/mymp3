@@ -19,6 +19,8 @@ Se não puder acessar o <a href="https://mymp3repositorio.000webhostapp.com/" ta
 
 ## ⚙️ Executando os testes
 
+Caso queira testar o upload de arquivos eu deixei um arquivo mp3 nos arquivos do projeto: <a href="https://github.com/andradedevweb/mymp3/blob/main/audio.mp3">clique aqui para acessar</a>
+
 Você pode ir na pagina de playlists e testar o sistema de criação de playlists/pastas, inserir musicas nas playlists/banco de musicas ou simplesmente ouvir as as musicas já incluidas no sistema.
 
 ## 🛠️ Construído com
