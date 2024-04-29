@@ -5,6 +5,10 @@ Meu repositório online de musicas com sistema de playlists/pastas em PHP<br>
 
 <center><h1>❗❗❗Ao baixar exclua os aruivos <a href="https://github.com/andradedevweb/mymp3/blob/main/app/models/playlists_uploads/hardcore/deleteisso.txt" targe="_blank">deleisso.txt</a> dentro dos diretorios vazios na pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models/playlists_uploads" targe="_blank">playlists_uploads</a> ❗❗❗</h1></center>
 
+## 🤔 Como o sistema funciona
+
+No menu lateral você podera observar 5 ícones, o ícone home é um botão que leva para uma página onde pode você poderá ler uma breve descrição do projeto, abaixo deste está o banco de músicas onde todas as músicas upadas no projeto pela pagina de upload são renderizadas, abaixo deste teremos as playlists onde você terá playlists separadas por genero e poderá também criar suas proprisa playlist personalizada clicando no icone "criar pasta" e upando suas musicas, abaixo do mesmo temos a página responsável por realizar uploads das músicas para o projeto e por fim temos o botão para retornar a página de login
+
 ## 💻 Explicando o código
 
 Basicamente a "magica" da aplicação gira entorno de uma função para escanear diretorios e exibir os arquivos contidos nos mesmos em paginas PHP, uma função que efetua upload de arquivos mp3 para dentro de um diretório (que posteriormente serão escaneados pela primeira função e exibidos em uma pagina PHP) e por fim uma função que ira criar um novo diretório (playlist) e uma pagina para exibir os aquivos e realizar uploads dos mesmos, com essas três funções nós temos uma aplicação dinamica que realiza upload de arquivos mp3, armazena, exibe os mesmos para o usuario e ainda os organiza em pastas.
@@ -26,5 +30,6 @@ Você pode ir na pagina de playlists e testar o sistema de criação de playlist
 ## 🛠️ Construído com
 
 * [PHP](https://www.php.net/) - Linguagem usada
+* [Bootstrap]([https://www.php.net/](https://getbootstrap.com/)) - Framework frontend usado
 * [Xampp](https://www.apachefriends.org/pt_br/index.html) - Servidor local usada para teste
 * [VsCode](https://code.visualstudio.com/) - Editor de código usado
