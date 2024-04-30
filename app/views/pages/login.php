@@ -16,11 +16,11 @@
             
             // Credenciais corretas, redireciona para a página home
             $_SESSION['name'] = $nome; // Armazena o nome de usuário na sessão
-            header('Location: ');
+            header('Location: http://localhost/mymp3/app/views/pages/home.php');
             exit;
 
         }else{
-            header('Location: ');
+            header('Location: http://localhost/mymp3/app/views/pages/login.php');
             exit;
         }
     }
@@ -102,7 +102,7 @@
         </form>
         
     </div>
-    <a href="">Vizualizar como recrutador</a>
+    <a href="http://localhost/mymp3/app/views/pages/home.php">Vizualizar como recrutador</a>
     </center>
 </body>
 </html>
