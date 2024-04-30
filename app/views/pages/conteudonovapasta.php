@@ -38,7 +38,7 @@ if(isset($_POST['deletar'])){
     
     delTree("../../../models/$novonomepastaupload");
     unlink("../../../views/pages/playlists/".basename(__FILE__));
-    header('Location: http://localhost:8000/mymp3/app/views/pages/playlist.php');
+    header('Location: http://localhost/mymp3/app/views/pages/playlist.php');
     exit;
 
 }
