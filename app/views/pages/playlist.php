@@ -48,6 +48,7 @@
         }
         a:hover{
             color: #FF0099;
+            text-decoration: none;
         }
         ::-webkit-scrollbar-track {
         background-color: rgb(0, 0, 0);
