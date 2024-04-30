@@ -9,14 +9,14 @@ function delTree($dir) {
     return rmdir($dir); 
 }
 
+$arquivo = $_FILES['file'];
+$nomepastaupload = basename(__FILE__);
+@$novonomepastaupload = pathinfo($nomepastaupload, PATHINFO_FILENAME);
+$arquivoNovo = explode('.',$arquivo['name']);
+$path = "../../../models/$novonomepastaupload/".$arquivo['name'];
+$arquivoNome = $arquivo['name'];
+
 if(isset($_POST['acao'])){
-            
-    $arquivo = $_FILES['file'];
-    $nomepastaupload = basename(__FILE__);
-    @$novonomepastaupload = pathinfo($nomepastaupload, PATHINFO_FILENAME);
-    $arquivoNovo = explode('.',$arquivo['name']);
-    $path = "../../../models/$novonomepastaupload/".$arquivo['name'];
-    $arquivoNome = $arquivo['name'];
 
     if($arquivoNovo[sizeof($arquivoNovo)-1] != 'mp3'){
         echo "<script type='text/javascript'>alert('O arquivo não é mp3!')</script>";
