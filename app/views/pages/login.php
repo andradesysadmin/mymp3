@@ -92,7 +92,6 @@
 <body>
     <center>
     <div class="loginbox">
-        <img src="../app/views/imgs/logo.png">
         <h2>LOGIN</h2>
         <form method="post">
             Nome:
