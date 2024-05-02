@@ -30,6 +30,6 @@ Você pode ir na pagina de playlists e testar o sistema de criação de playlist
 ## 🛠️ Construído com
 
 * [PHP](https://www.php.net/) - Linguagem usada
-* [Bootstrap]([https://www.php.net/](https://getbootstrap.com/)) - Framework frontend usado
+* [Bootstrap]([https://www.php.net/](https://getbootstrap.com/) - Framework frontend usado
 * [Xampp](https://www.apachefriends.org/pt_br/index.html) - Servidor local usada para teste
 * [VsCode](https://code.visualstudio.com/) - Editor de código usado
