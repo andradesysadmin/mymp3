@@ -3,7 +3,7 @@ Meu repositório online de musicas com sistema de playlists/pastas em PHP<br>
 <a href="https://mymp3repositorio.000webhostapp.com/" targe="_blank">Link do projeto!</a>
 <img src='fotodoprojeto.png'>
 
-<center><h1>❗❗❗Ao baixar exclua os aruivos <a href="https://github.com/andradedevweb/mymp3/blob/main/app/models/playlists_uploads/hardcore/deleteisso.txt" targe="_blank">deleisso.txt</a> dentro dos diretorios vazios na pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models/playlists_uploads" targe="_blank">playlists_uploads</a> ❗❗❗</h1></center>
+<center><h1>❗❗❗Ao baixar exclua os aruivos <a href="https://github.com/andradedevweb/mymp3/blob/main/app/models/playlists_uploads/hardcore/deleteisso.txt" targe="_blank">deleteisso.txt</a> dentro dos diretorios vazios na pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models/playlists_uploads" targe="_blank">playlists_uploads</a> ❗❗❗</h1></center>
 
 ## 🤔 Como o sistema funciona
 
