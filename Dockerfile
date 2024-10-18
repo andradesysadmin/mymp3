@@ -1,9 +1,8 @@
-FROM php:latest
+#Usando o xampp pela facilidade de configuração ;)
+FROM tomsik68/xampp 
 
-WORKDIR /var/app
-
-COPY . .
+COPY . /opt/lampp/htdocs/
 
 EXPOSE 80
 
-CMD ["php", "-S", "0.0.0.0:80"]
+CMD ["/opt/lampp/bin/httpd", "-D", "FOREGROUND"]
