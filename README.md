@@ -1,5 +1,5 @@
 # Mymp3
-Meu repositório online de musicas com sistema de playlists/pastas em PHP<br>
+Meu repositório online de musicas com sistema de playlists/pastas feito em PHP que se integra com Docker (usando uma imagem do xampp como base) e com o Jenkins para deploy automatico<br>
 <a href="https://mymp3repositorio.000webhostapp.com/" targe="_blank">Link do projeto!</a>
 <img src='fotodoprojeto.png'>
 
