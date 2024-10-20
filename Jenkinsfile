@@ -25,7 +25,6 @@ pipeline {
                 echo 'deploy'
                 sh 'docker run -d --name mymp3 -p 8080:80 mymp3'
                 sh 'docker exec mymp3 chmod -R 777 /opt/lampp/htdocs/'
-                sh 'rm -f mymp3/app/models/playlists_uploads/*/deleteisso.txt'
             }
         }
     }
