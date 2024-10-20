@@ -1,11 +1,11 @@
-#Usando o xampp pela facilidade de configuração ;)
+#Escolhi usar o xampp pelo habito e facilidade de configuração :)
 FROM tomsik68/xampp 
 
 COPY . /opt/lampp/htdocs/
 
-RUN chmod -R /opt/lammp/htdocs/
+RUN chmod -R 755 /opt/lampp/htdocs/
 
-RUN rm app/models/playlists_uploads/*/deleteisso.txt
+RUN rm -f /opt/lampp/htdocs/app/models/playlists_uploads/*/deleteisso.txt
 
 EXPOSE 80
 
