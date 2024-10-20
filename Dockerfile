@@ -3,7 +3,7 @@ FROM tomsik68/xampp
 
 COPY . /opt/lampp/htdocs/
 
-RUN chmod -R 755 /opt/lampp/htdocs/
+RUN chmod -R 775 /opt/lampp/htdocs/
 
 RUN rm -f /opt/lampp/htdocs/app/models/playlists_uploads/*/deleteisso.txt && rm -f /opt/lampp/htodocs/app/models/uploads/teste.txt
 
