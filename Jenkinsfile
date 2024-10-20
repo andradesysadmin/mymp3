@@ -11,9 +11,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build'
-                sh 'docker stop mymp3'
-                sh 'docker rm mymp3'
-                sh 'docker rmi mymp3'
+                sh 'docker stop mymp3 || true'
+                sh 'docker rm mymp3 || true'
+                sh 'docker rmi mymp3 || true'
                 dir('mymp3') { 
                     sh 'ls -la'
                     sh 'docker build -t mymp3 .'
