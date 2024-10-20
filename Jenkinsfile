@@ -24,7 +24,6 @@ pipeline {
             steps {
                 echo 'deploy'
                 sh 'docker run -d --name mymp3 -p 8080:80 mymp3'
-                sh 'docker exec mymp3 chmod -R 777 /opt/lampp/htdocs/'
             }
         }
     }
