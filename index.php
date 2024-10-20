@@ -2,6 +2,6 @@
 
     namespace App;
     session_start();
-    include('app/views/mainview.php');
+    include(__DIR__ . '/app/views/mainview.php');
     $mainview = new MainView;
-    include $mainview::view('login');
+    include(__DIR__ . '/app/views/pages/login.php');
