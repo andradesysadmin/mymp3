@@ -102,7 +102,6 @@
         </form>
         
     </div>
-    <a href="http://localhost:8080/app/views/pages/home.php">Vizualizar como recrutador</a>
     </center>
 </body>
 </html>
