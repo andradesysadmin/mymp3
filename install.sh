@@ -8,7 +8,6 @@ echo "Build"
 docker stop mymp3 || true
 docker rm mymp3 || true
 docker rmi mymp3 || true
-
 cd mymp3
 ls -la
 docker build -t mymp3 .
