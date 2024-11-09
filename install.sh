@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Checkout"
-rm -rf mymp3
+rm -rf mymp3 || true
 git clone https://github.com/andradesysadmin/mymp3.git
 
 echo "Build"
