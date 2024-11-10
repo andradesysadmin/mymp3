@@ -3,8 +3,6 @@ Meu repositório online de musicas com sistema de playlists/pastas feito em PHP 
 <a href="https://mymp3repositorio.000webhostapp.com/" targe="_blank">Link do projeto!</a>
 <img src='fotodoprojeto.png'>
 
-<center><h3>❗❗❗Ao baixar exclua os aruivos <a href="https://github.com/andradedevweb/mymp3/blob/main/app/models/playlists_uploads/hardcore/deleteisso.txt" targe="_blank">deleteisso.txt</a> dentro dos diretorios vazios na pasta <a href="https://github.com/andradedevweb/mymp3/tree/main/app/models/playlists_uploads" targe="_blank">playlists_uploads</a> ❗❗❗</h3></center>
-
 ## 🤔 Como o sistema funciona
 
 No menu lateral você podera observar 5 ícones, o ícone home é um botão que leva para uma página onde pode você poderá ler uma breve descrição do projeto, abaixo deste está o banco de músicas onde todas as músicas upadas no projeto pela pagina de upload são renderizadas, abaixo deste teremos as playlists onde você terá playlists separadas por genero e poderá também criar suas proprisa playlist personalizada clicando no icone "criar pasta" e upando suas musicas, abaixo do mesmo temos a página responsável por realizar uploads das músicas para o projeto e por fim temos o botão para retornar a página de login
