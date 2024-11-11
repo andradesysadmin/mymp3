@@ -6,8 +6,8 @@
 
     @$nome = $_POST['nome'];
     @$senha = $_POST['senha'];  
-    $_SESSION['name'] = "gabriel";
-    $_SESSION['senha'] = "gabriel";
+    $_SESSION['name'] = "admin";
+    $_SESSION['senha'] = "admin";
 
     if(isset($_POST['enviar'])){
 
