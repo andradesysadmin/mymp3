@@ -16,6 +16,7 @@ A aplicação foi pensada para rodar em containers com Docker, uma vez tendo o d
 ```
 docker run -d -p 8080:80 --name mymp3 andradesysadmin/mymp3:latest
 ```
+A aplicação estará disponivel na porta 8080 com o login e senha **admin**
 
 ## ⚙️ Executando os testes
 
