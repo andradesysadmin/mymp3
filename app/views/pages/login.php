@@ -16,11 +16,11 @@
             
             // Credenciais corretas, redireciona para a página home
             $_SESSION['name'] = $nome; // Armazena o nome de usuário na sessão
-            header('Location: http://localhost:8080/app/views/pages/home.php');
+            header('Location: /app/views/pages/home.php');
             exit;
 
         }else{
-            header('Location: http://localhost:8080/app/views/pages/login.php');
+            header('Location: /app/views/pages/login.php');
             exit;
         }
     }
