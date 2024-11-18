@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mymp3-config
+  namespace: mymp3
+data:
+  BASE_URL: "http://mymp3-service:8080"
